@@ -1,0 +1,42 @@
+# Entornos virtuales
+/env
+/.venv
+/venv
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Reportes y logs
+/reportes/
+/allure-report/
+*.log
+
+# Cache de Pytest
+.pytest_cache/
+
+# Navegadores y artefactos de Playwright
+/ms-playwright/
+
+# Archivos de configuración de IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias (si se usan otras herramientas)
+pip-wheel-metadata/
+
+# Archivos de distribución
+build/
+dist/
+*.egg-info/
+
+# Archivos de entorno
+.env
